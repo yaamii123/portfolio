@@ -23,7 +23,7 @@ export const siteConfig: SiteConfig = {
     de: 'Hamburg, Deutschland',
   },
   resumeUrl: '/resume.pdf',
-  github: 'https://github.com/yartsun-m',
+  github: 'https://github.com/yaamii123',
   linkedin: 'https://www.linkedin.com/in/mykhailo-yartsun-340679367/',
   siteUrl: 'https://yartsun.dev',
 };
@@ -99,7 +99,7 @@ export const experience: ExperienceItem[] = [
     period: '2025 — 2026',
     typeKey: 'personal',
     tags: ['Python', 'FastAPI', 'Next.js', 'scikit-learn', 'Docker', 'Gemini'],
-    link: 'https://github.com/yartsun-m/ai-data-analyst-app',
+    link: 'https://github.com/yaamii123/ai-data-analyst-app',
   },
   {
     id: 'haw-projects',
@@ -144,7 +144,7 @@ export const projects: Project[] = [
     accentKey: 'fullStackAi',
     tags: ['Python', 'FastAPI', 'Next.js', 'scikit-learn', 'Gemini', 'Docker', 'CI/CD'],
     date: '2025 — 2026',
-    github: 'https://github.com/yartsun-m/ai-data-analyst-app',
+    github: 'https://github.com/yaamii123/ai-data-analyst-app',
     demo: 'https://ai-data-analyst-app-sigma.vercel.app',
     featured: true,
     architecture: {

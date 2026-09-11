@@ -1,6 +1,6 @@
 # Mykhailo Yartsun — Portfolio
 
-[![CI](https://github.com/yartsun-m/portfolio/actions/workflows/ci.yml/badge.svg)](https://github.com/yartsun-m/portfolio/actions/workflows/ci.yml)
+[![CI](https://github.com/yaamii123/portfolio/actions/workflows/ci.yml/badge.svg)](https://github.com/yaamii123/portfolio/actions/workflows/ci.yml)
 
 Personal portfolio website showcasing backend development, AI/ML projects, and academic work.
 
@@ -78,5 +78,5 @@ src/
 ## Contact
 
 - **Email:** yartsun.m@gmail.com
-- **GitHub:** [yartsun-m](https://github.com/yartsun-m)
+- **GitHub:** [yaamii123](https://github.com/yaamii123)
 - **LinkedIn:** [Mykhailo Yartsun](https://www.linkedin.com/in/mykhailo-yartsun-340679367/)
