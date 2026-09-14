@@ -8,10 +8,12 @@ Personal portfolio website showcasing backend development, AI/ML projects, and a
 
 ## Highlights
 
+- **Atelier** — Visual fashion search with CLIP + pgvector
+- **ChestX-Ray AI** — Multi-label medical imaging with Grad-CAM
 - **AI Data Analyst App** — Full-stack data platform ([live demo](https://ai-data-analyst-app-sigma.vercel.app))
+- **AI SQL Assistant** — Natural-language SQL with dashboards ([live demo](https://ai-sql.vercel.app))
+- **3D Sliding Puzzle** — Cubic 15-puzzle in the browser ([live demo](https://sliding3d.vercel.app))
 - **FinTrack** — Personal finance app (backend lead on team project)
-- **AI SQL Assistant** — Natural-language PostgreSQL query tool
-- Academic projects in Java/RMI, PostgreSQL database design, and OOP
 
 ## Tech Stack
 

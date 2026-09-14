@@ -1,7 +1,20 @@
-import { Suspense, lazy, useEffect, useState } from 'react';
+import { Component, Suspense, lazy, useEffect, useState, type ReactNode } from 'react';
 import { usePointerEffectsEnabled } from '@/hooks/usePointerEffectsEnabled';
 
 const WireframeSchematicScene = lazy(() => import('./WireframeSchematicScene'));
+
+class WireframeErrorBoundary extends Component<{ children: ReactNode }, { hasError: boolean }> {
+  state = { hasError: false };
+
+  static getDerivedStateFromError() {
+    return { hasError: true };
+  }
+
+  render() {
+    if (this.state.hasError) return null;
+    return this.props.children;
+  }
+}
 
 export default function BlueprintWireframe3D() {
   const enabled = usePointerEffectsEnabled();
@@ -25,9 +38,11 @@ export default function BlueprintWireframe3D() {
 
   return (
     <div className="absolute inset-0 pointer-events-none opacity-70">
-      <Suspense fallback={null}>
-        <WireframeSchematicScene />
-      </Suspense>
+      <WireframeErrorBoundary>
+        <Suspense fallback={null}>
+          <WireframeSchematicScene />
+        </Suspense>
+      </WireframeErrorBoundary>
     </div>
   );
 }

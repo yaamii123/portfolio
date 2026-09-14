@@ -84,6 +84,28 @@ export const de: Translations = {
       academic: 'Studium',
     },
     items: {
+      atelier: {
+        title: 'Full-Stack-Entwickler',
+        organization: 'Atelier — Visuelle Modesuche',
+        description:
+          'Visuelles Suchprodukt: Kleidung im Foto erkennen, mit CLIP einbetten und ähnliche Katalogartikel über PostgreSQL + pgvector finden. Hybrid-Ranking aus visuellen, semantischen und Attribut-Signalen; Demo-Modus läuft offline ohne kommerzielle KI-API.',
+        highlights: [
+          'Austauschbare Detection-, Embedding- und Ranking-Provider hinter FastAPI',
+          'pgvector-HNSW-Retrieval — die Suche loopt den Katalog nicht in Python',
+          'Next.js-UI über einem Live-Retailer-Katalog mit echten Produktseiten',
+        ],
+      },
+      aiXrays: {
+        title: 'ML Engineer',
+        organization: 'ChestX-Ray AI — Eigenes Projekt',
+        description:
+          'Pädagogisches Full-Stack-System für Multi-Label-Befunde auf Thorax-Röntgenbildern mit Grad-CAM. Drei Inferenzmodi (fine-tuned ConvNeXt-B, TorchXRayVision DenseNet, 90/10-Ensemble) plus Metrics-Dashboard für ROC-AUC und F1.',
+        highlights: [
+          'FastAPI-Inferenz mit ConvNeXt-, DenseNet- und Ensemble-Backends',
+          'Grad-CAM-Heatmaps und Modellvergleich in Next.js',
+          'Docker Compose für lokalen One-Command-Start',
+        ],
+      },
       fintrack: {
         title: 'Backend-Entwickler',
         organization: 'FinTrack — Teamprojekt',
@@ -148,6 +170,9 @@ export const de: Translations = {
     subtitle:
       'Full-Stack- und Backend-Projekte — von KI-Data-Plattformen bis verteilte Systeme und Datenbankdesign.',
     accents: {
+      visualSearch: 'Full-Stack · Visuelle Suche',
+      medicalAi: 'Full-Stack · Medizinische KI',
+      threeDGame: 'Frontend · 3D-Puzzle',
       fullStackAi: 'Full-Stack · KI/ML',
       backendLead: 'Backend Lead · Teamprojekt',
       backendAiDb: 'Backend · KI + Datenbanken',
@@ -166,14 +191,56 @@ export const de: Translations = {
       components: 'Komponenten',
     },
     architecture: {
+      atelier:
+        'Next.js spricht nie mit einem Modell. FastAPI übernimmt Detection, CLIP-Embeddings und Hybrid-Ranking; PostgreSQL + pgvector liefert die Top-K-Nachbarn über HNSW-Indizes.',
+      aiXrays:
+        'Next.js lädt ein Thorax-Röntgenbild zu FastAPI hoch. Das Backend preprocessed, läuft ConvNeXt, DenseNet oder ein 90/10-Ensemble und liefert Befunde plus Grad-CAM-Heatmaps.',
+      sliding3d:
+        'Puzzle-Logik liegt in einer React-freien Game-Schicht. React Three Fiber rendert ein Mesh pro Würfel; BFS- und A*-Solver laufen im Client ohne Backend.',
       aiDataAnalyst:
         'Next.js Frontend kommuniziert via REST/SSE mit FastAPI. ML-Pipelines speichern Modelle; Gemini erhält nur aggregierte Statistiken.',
       fintrack:
         'React SPA ruft FastAPI mit JWT-Auth auf. PostgreSQL speichert Nutzer, Transaktionen und Budgets; Gemini für AI Coach.',
       aiSqlAssistant:
-        'FastAPI empfängt natürlichsprachliche Anfragen, LLM generiert read-only SQL gegen PostgreSQL, Ergebnisse werden formatiert.',
+        'Next.js-Chat streamt FastAPI-Antworten. Gemini generiert read-only SQL gegen hochgeladenes SQLite oder PostgreSQL; JWT und SELECT-only halten Queries sicher.',
     },
     items: {
+      atelier: {
+        title: 'Atelier — Visuelle Modesuche',
+        description:
+          'Outfit-Foto hochladen; Atelier erkennt das Kleidungsstück, embeddet es und findet ähnliche Teile in einem Live-Modekatalog mit PostgreSQL + pgvector.',
+        role: 'Alleinarbeit — Suchpipeline, Embeddings, Ranking, UI',
+        problem:
+          'Käufer können ein Outfit beschreiben oder fotografieren, kommen aber nicht von dem Bild zu ähnlichen Teilen in echten Retailer-Katalogen.',
+        challenge:
+          'Detection, Embeddings und Ranking austauschbar halten — und Nachbarn in SQL holen, statt den Katalog in Python zu loopen.',
+        result:
+          'FastAPI + Next.js mit CLIP-Embeddings, pgvector-HNSW-Suche, Hybrid-Ranking und Retailer-Feed mit echten Produktseiten.',
+      },
+      'ai-xrays': {
+        title: 'ChestX-Ray AI',
+        description:
+          'Pädagogische Full-Stack-App für Multi-Label-Befunde auf Thorax-Röntgenbildern mit Grad-CAM-Heatmaps und Modellvergleich.',
+        role: 'Alleinarbeit — Modelle, Inferenz-API, Explainability, UI',
+        problem:
+          'Studierende brauchen einen lokalen Weg, Thorax-Modelle zu prüfen — nicht nur ein Label, sondern wo das Netz hingeschaut hat und wie Modelle divergieren.',
+        challenge:
+          'Drei Inferenz-Backends (fine-tuned ConvNeXt, TorchXRayVision DenseNet, Ensemble) mit Grad-CAM und Metrics-Dashboard.',
+        result:
+          'FastAPI + Next.js mit 14 NIH ChestX-ray14-Befunden, Heatmaps, ROC-AUC/F1-Dashboard und Docker Compose für lokale Runs.',
+      },
+      sliding3d: {
+        title: '3D Sliding Puzzle',
+        description:
+          'Browser-Spiel, das das 15-Puzzle in ein kubisches N×N×N-Gitter erweitert — Würfel gleiten auf X, Y und Z, mit Hinweisen, Undo und Client-Solver.',
+        role: 'Alleinarbeit — Puzzle-Logik, Three.js-Rendering, Solver',
+        problem:
+          'Klassische Sliding Puzzles sind 2D; eine echte dritte Achse braucht kamerabewegte Züge, lösbare Scrambles und Sicht auf innere Schichten.',
+        challenge:
+          'Spiellogik von Three.js trennen, immer lösbare 3-Achsen-Scrambles erzeugen und 2×2×2 / 3×3×3 lösen, ohne größere Boards einzufrieren.',
+        result:
+          'Live Vite + React Three Fiber Spiel mit 2×2×2–5×5×5, Layer-Maps, Hints, BFS/A*-Solve und Bestzeiten in localStorage.',
+      },
       'ai-data-analyst': {
         title: 'AI Data Analyst App',
         description:
@@ -201,14 +268,14 @@ export const de: Translations = {
       'ai-sql-assistant': {
         title: 'AI SQL Assistant',
         description:
-          'Natural-Language-Interface für PostgreSQL — übersetzt Fragen in SQL und liefert formatierte Ergebnisse.',
-        role: 'Entwickler — Schema-Integration, Query-Generierung, Sicherheit',
+          'Natural-Language-SQL-Assistent mit Dashboards — SQLite hochladen oder PostgreSQL verbinden, generiertes SQL prüfen und Insights streamen.',
+        role: 'Alleinarbeit — Query-Pipeline, Sicherheit, Auth, Dashboards',
         problem:
-          'Nutzer und Entwickler brauchen schnelleren Zugang zu komplexen relationalen Schemas ohne manuelles SQL.',
+          'Wer eine Datenbank erkundet, will Antworten und Charts ohne SQL — generierte Queries müssen aber read-only und prüfbar bleiben.',
         challenge:
-          'Korrektes SQL aus natürlicher Sprache, Schutz vor destruktiven Queries, Schema-Kontext-Limits.',
+          'Korrektes SQL aus Follow-up-Chat, DDL/DML blockieren, Postgres-URIs verschlüsseln und Insights streamen ohne PII.',
         result:
-          'Assistent an normalisiertem Klinik-Schema — sichere read-only Exploration via natürlicher Sprache.',
+          'Live FastAPI + Next.js mit Gemini, Human-in-the-loop SQL-Freigabe, JWT-Accounts, Auto-Dashboards und SELECT-only Execution.',
       },
       'vacuum-robot': {
         title: 'Staubsauger-Roboter-System',

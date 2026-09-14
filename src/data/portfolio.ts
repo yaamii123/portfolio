@@ -59,12 +59,14 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     categoryKey: 'databases',
-    skills: ['PostgreSQL', 'SQLite', 'MySQL', 'Database Design', 'ER Modeling', 'Normalization'],
+    skills: ['PostgreSQL', 'pgvector', 'SQLite', 'MySQL', 'Database Design', 'ER Modeling', 'Normalization'],
   },
   {
     categoryKey: 'aiData',
     skills: [
       'Machine Learning',
+      'PyTorch',
+      'CLIP',
       'scikit-learn',
       'XGBoost',
       'Gemini API',
@@ -76,7 +78,7 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     categoryKey: 'frontend',
-    skills: ['React', 'Next.js', 'Tailwind CSS', 'Vite', 'Plotly.js'],
+    skills: ['React', 'Next.js', 'Tailwind CSS', 'Vite', 'Three.js', 'Plotly.js'],
   },
   {
     categoryKey: 'devops',
@@ -85,6 +87,22 @@ export const skillGroups: SkillGroup[] = [
 ];
 
 export const experience: ExperienceItem[] = [
+  {
+    id: 'atelier',
+    contentKey: 'atelier',
+    period: 'Sep 2026',
+    typeKey: 'personal',
+    tags: ['FastAPI', 'PostgreSQL', 'pgvector', 'CLIP', 'Next.js'],
+    link: 'https://github.com/yaamii123/ai-fahsion-search',
+  },
+  {
+    id: 'ai-xrays',
+    contentKey: 'aiXrays',
+    period: 'Jul 2026',
+    typeKey: 'personal',
+    tags: ['PyTorch', 'FastAPI', 'ConvNeXt', 'Grad-CAM', 'Next.js'],
+    link: 'https://github.com/yaamii123/ai-xrays',
+  },
   {
     id: 'fintrack',
     contentKey: 'fintrack',
@@ -139,6 +157,77 @@ export const certifications: Certification[] = [
 
 export const projects: Project[] = [
   {
+    id: 'atelier',
+    gradient: 'from-fuchsia-600 via-pink-600 to-rose-700',
+    accentKey: 'visualSearch',
+    tags: ['Python', 'FastAPI', 'PostgreSQL', 'pgvector', 'CLIP', 'Next.js', 'Docker'],
+    date: 'Sep 2026',
+    github: 'https://github.com/yaamii123/ai-fahsion-search',
+    featured: true,
+    architecture: {
+      summaryKey: 'atelier',
+      diagram: `┌──────────────┐    image     ┌──────────────────┐
+│  Next.js UI  │ ───────────► │  FastAPI Search  │
+│   Atelier    │ ◄─────────── │  Hybrid Ranking  │
+└──────────────┘   results    └────────┬─────────┘
+                                       │
+               ┌───────────────────────┼───────────────────────┐
+               ▼                       ▼                       ▼
+        ┌────────────┐         ┌────────────┐          ┌────────────┐
+        │ PostgreSQL │         │ CLIP Embed │          │ Detection  │
+        │  pgvector  │         │  Retrieval │          │  + Attrs   │
+        └────────────┘         └────────────┘          └────────────┘`,
+      components: ['Next.js', 'FastAPI', 'PostgreSQL', 'pgvector', 'CLIP', 'SQLAlchemy', 'Docker'],
+    },
+  },
+  {
+    id: 'ai-xrays',
+    gradient: 'from-sky-600 via-cyan-600 to-teal-700',
+    accentKey: 'medicalAi',
+    tags: ['Python', 'PyTorch', 'FastAPI', 'ConvNeXt', 'Grad-CAM', 'Next.js', 'Docker'],
+    date: 'Jul 2026',
+    github: 'https://github.com/yaamii123/ai-xrays',
+    featured: true,
+    architecture: {
+      summaryKey: 'aiXrays',
+      diagram: `┌──────────────┐    X-ray     ┌──────────────────┐
+│  Next.js UI  │ ───────────► │  FastAPI Infer   │
+│   Heatmaps   │ ◄─────────── │  Grad-CAM        │
+└──────────────┘              └────────┬─────────┘
+                                       │
+               ┌───────────────────────┼───────────────────────┐
+               ▼                       ▼                       ▼
+        ┌────────────┐         ┌────────────┐          ┌────────────┐
+        │ ConvNeXt-B │         │  DenseNet  │          │  Ensemble  │
+        │ Fine-tuned │         │    (XRV)   │          │    90/10   │
+        └────────────┘         └────────────┘          └────────────┘`,
+      components: ['Next.js', 'FastAPI', 'PyTorch', 'ConvNeXt', 'TorchXRayVision', 'Grad-CAM', 'Docker'],
+    },
+  },
+  {
+    id: 'sliding3d',
+    gradient: 'from-indigo-600 via-blue-600 to-cyan-700',
+    accentKey: 'threeDGame',
+    tags: ['TypeScript', 'React', 'Three.js', 'Vite', 'A*', 'BFS'],
+    date: 'Sep 2026',
+    github: 'https://github.com/yaamii123/sliding3d',
+    demo: 'https://sliding3d.vercel.app',
+    architecture: {
+      summaryKey: 'sliding3d',
+      diagram: `┌─────────────────────────────────────────┐
+│              React + R3F                │
+│  HUD / Timer / Layers  │  Three.js Cube │
+└──────────────┬─────────┴────────┬───────┘
+               │                  │
+               ▼                  ▼
+        ┌────────────┐     ┌────────────┐
+        │ game/ logic│     │   Solver   │
+        │ (no Three) │     │  BFS / A*  │
+        └────────────┘     └────────────┘`,
+      components: ['React', 'Three.js', 'React Three Fiber', 'Vite', 'TypeScript'],
+    },
+  },
+  {
     id: 'ai-data-analyst',
     gradient: 'from-blue-600 via-indigo-600 to-purple-700',
     accentKey: 'fullStackAi',
@@ -192,22 +281,25 @@ export const projects: Project[] = [
     id: 'ai-sql-assistant',
     gradient: 'from-violet-600 via-purple-600 to-fuchsia-700',
     accentKey: 'backendAiDb',
-    tags: ['Python', 'PostgreSQL', 'SQL', 'LLM', 'FastAPI', 'Database Design'],
-    date: '2025',
+    tags: ['Python', 'FastAPI', 'PostgreSQL', 'SQLite', 'Gemini', 'Next.js', 'JWT'],
+    date: '2026',
+    github: 'https://github.com/yaamii123/ai-sql',
+    demo: 'https://ai-sql.vercel.app',
     featured: true,
     architecture: {
       summaryKey: 'aiSqlAssistant',
-      diagram: `┌──────────────┐   Natural Lang.  ┌──────────────────┐
-│     User     │ ───────────────► │  FastAPI + LLM   │
-│   Interface  │                  │  Query Generator │
-└──────────────┘                  └────────┬─────────┘
-                                           │ read-only SQL
-                                           ▼
-                                  ┌──────────────────┐
-                                  │   PostgreSQL     │
-                                  │ Clinical Schema  │
-                                  └──────────────────┘`,
-      components: ['FastAPI', 'PostgreSQL', 'LLM', 'Schema Context', 'Query Validation'],
+      diagram: `┌──────────────┐   NL / SQL   ┌──────────────────┐
+│  Next.js UI  │ ◄──────────► │ FastAPI + Gemini │
+│ Chat/Charts  │   JWT / SSE  │ Query Pipeline   │
+└──────────────┘              └────────┬─────────┘
+                                       │
+               ┌───────────────────────┼───────────────────────┐
+               ▼                       ▼                       ▼
+        ┌────────────┐         ┌────────────┐          ┌────────────┐
+        │ SQLite /   │         │ Read-only  │          │  Dashboard │
+        │ PostgreSQL │         │  SELECT    │          │   Charts   │
+        └────────────┘         └────────────┘          └────────────┘`,
+      components: ['Next.js', 'FastAPI', 'Gemini', 'PostgreSQL', 'SQLite', 'JWT', 'SSE'],
     },
   },
   {
