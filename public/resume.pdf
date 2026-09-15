@@ -1,48 +1,146 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <script type="module">import { injectIntoGlobalHook } from "/@react-refresh";
-injectIntoGlobalHook(window);
-window.$RefreshReg$ = () => {};
-window.$RefreshSig$ = () => (type) => type;</script>
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (mailto:contact@yartsun.dev)
+>> /Border [ 0 0 0 ] /Rect [ 267.229 746.5087 347.197 756.7087 ] /Subtype /Link /Type /Annot
+>>
+endobj
+5 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://yartsun.dev)
+>> /Border [ 0 0 0 ] /Rect [ 358.859 746.5087 402.7955 756.7087 ] /Subtype /Link /Type /Annot
+>>
+endobj
+6 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/yaamii123)
+>> /Border [ 0 0 0 ] /Rect [ 414.4575 746.5087 497.1285 756.7087 ] /Subtype /Link /Type /Annot
+>>
+endobj
+7 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/yaamii123/ai-xrays)
+>> /Border [ 0 0 0 ] /Rect [ 353.4128 554.2287 382.6656 565.5087 ] /Subtype /Link /Type /Annot
+>>
+endobj
+8 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/solomiia222/fintrack-frontend2)
+>> /Border [ 0 0 0 ] /Rect [ 469.8976 483.2287 497.3205 494.5087 ] /Subtype /Link /Type /Annot
+>>
+endobj
+9 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://fintrack-ai-tawny.vercel.app)
+>> /Border [ 0 0 0 ] /Rect [ 506.8208 483.2287 549.6982 494.5087 ] /Subtype /Link /Type /Annot
+>>
+endobj
+10 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/yaamii123/ai-sql)
+>> /Border [ 0 0 0 ] /Rect [ 244.7488 424.2287 274.0016 435.5087 ] /Subtype /Link /Type /Annot
+>>
+endobj
+11 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://ai-sql.vercel.app)
+>> /Border [ 0 0 0 ] /Rect [ 281.672 424.2287 326.5946 435.5087 ] /Subtype /Link /Type /Annot
+>>
+endobj
+12 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/yaamii123/ai-fahsion-search)
+>> /Border [ 0 0 0 ] /Rect [ 317.3826 353.2287 346.6354 364.5087 ] /Subtype /Link /Type /Annot
+>>
+endobj
+13 0 obj
+<<
+/Annots [ 4 0 R 5 0 R 6 0 R 7 0 R 8 0 R 9 0 R 10 0 R 11 0 R 12 0 R ] /Contents 17 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 16 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
 
-    <script type="module" src="/@vite/client"></script>
+>> /Type /Page
+>>
+endobj
+14 0 obj
+<<
+/PageMode /UseNone /Pages 16 0 R /Type /Catalog
+>>
+endobj
+15 0 obj
+<<
+/Author (Mykhailo Yartsun) /CreationDate (D:20260915151248+02'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260915151248+02'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (Mandatory Backend, Data, and Software Engineering Internship Resume) /Title (Mykhailo Yartsun \204 Resume) /Trapped /False
+>>
+endobj
+16 0 obj
+<<
+/Count 1 /Kids [ 13 0 R ] /Type /Pages
+>>
+endobj
+17 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 3155
+>>
+stream
+GauHMgN)"?(4FM1m&I$W3@>poJHVKg)2sE3K/!CsA?,4K8.B[BgM+'71mO,oeIjfJ^a+)>Qd%sn]D(a$f35d@WIeJ5s6g.[-Y#4:@$56OGY2SmW6r+FSai2!hV_-+b1W7<^Y*MYL/k]'C=GqPd:bF/Egm"#k#6_E0kefiS;(=K;8)B7oh)!>.<*t=1b31e+iC\R=q_EAX^6#>d$WWo0;qM'!/n,'ZLq\.L0fa?CD\oJcRUjGkiae6R5<eloNrqFP(rF=r11iW;>KX.#iO0lPrY,3Q/.kc12OXUHHg-SS!I!3AEF3GX"mBo?^FW(3(O/ieV`0r=G1B=3ZBk9lLmGI%51rGmT#l?rNgCVdi!?+B/CN6T6C'@qIVa13bbudG5A*_3c0j\oTi\:FV&bph@g$`m17(BN1+6Vb[h>t&VN`8AIMVGAss1IOT45NO]:^1LiX>*;E68T)4(@3Z[?mcFQ_WG@rK*%hO6>\Y@1J$%D-WD#PTLnNC(Thoq/><D8YCliZig$s/ZN6D5*Fpo5nHO;/i$[('n>PeMRj)mbVh$3">3*bH+`#XJ4-:C)W)Em].6A4TII37bDf/U6%Fp9SAp/&^KUY(qBhs.eS%bLabB'IA%r`khD5pk*5@c-]6)cmq<WMBu3$M+;<nonB`D75E@6_8VW^d`)t!)1ueF&:Vd<E__%"p8;%g.9]dP=i.J!^gpr:g]2@Q7%5<>=.>aqeQ@XY_AsoLGFN=2VGHO>s=<.3iHg@)(h;c["Z%QS&3^ltFF&!dK8^8cNd7gj]5`h\+PS"6%&S!41\st+Hn3+JI%kLS[62,U8,mk_5IHhQ2\9S:B&h1pjW:.CcXeuUPO8HGa;kcX<p%<%aqrIr_^B#G?ftGm8Rk3rXJDIj?JK99Q7hR>Le\n,i5MuCal#f)NY!ZfD%!+5*6asSg!`/GaSW(-_#PdfPkk3<lCagPNVFoBP<br^.HlDAl^Y7<YruT!:HM(IG$=7Ubc-iu3"8uW7%9W5K$KUBB3W^[=JH`c3U&QLrk<ut*jXRPc<`K[gcp7.)V/\c_XIA*a1:NHR*bG"liVAM%bCUbRg_J$Ls3"LB2iUjLU!^7gc^;?90_1uA<iAhVPnFJuFg:&Dhlbo?_Pktn_KbJQIE]W]#*GN,]h76mjbXU"<IF7aXb5Hd/2p14_J^ZEK2'brQg"98QQb7&RTXH15?d8Pf$iU3c.Y)4T=\n+bo.`*Z-O0;1(BN<@B07(TFXrJ$>p+<J6fXn=83aV(j1.qp:,09KAk>aSrF5J*MNEt5-XG>f(dRF>C-jEIk;16VTC_$e0Xk)g-0W]2WN9oR@bcLH&02,!1hI#PV97:&-TXcOnotb%\>j1qI`-cViq52C"4:9(K$V]VTMQ,]*`nAYWY:%1[F_S*8(Qr7TlQ2&D3#[7A#'0jV'6%9tOAAeu@OiVe*^jb@$+WRO3-Z&u`Ks9.p*X_L6HQQ6]qN<59.)bhTbC\RIC1%7n,^UK.4B:HuL,QWr'Y4XVK'.FkP83?K3WXJ!)'Hn,h)$dbDF<(6qK<JM8W`I,'UT"l&U)UTZH8(*qM0>.DMFin95)t^18fKM?[bU^/,Qgb6$D)O;]BQ'!Jo1U6D8r:7l56H.=_Y[U"p>LHEosJ2eo5F()GJU6(Ijj?(P-YR\,!kY"]*BUa#/4:fmdV7S4SKY&\H4r]eY@)$J#PI0aKa5a-nidFQWQ*p'5t3>MfJYs=Ul]""7(3;1n7++P%'Tk:R3,P/AN:RG7OWP8XCtY"Q1I5J"q,[XSm[#H=ETD,?U9u742cp<krI`(5>V1,%_a8/+=$1UG7/'(It^jn>mF5`l(d-"_cGd`8Q#H^,tLD7bcL;gCn?``<QaQ!.TY.R_%8thhU\Hok%G\LVO=GVY^D9j%(ZHa<Ap4m6E#H;r(1b!*XBB[c;0+o_3FYeN+`o0tLseT67o!24)*YaId([=DEgu2?l4T1EM';bAhW^l:85/Ot-.4,2u>^$fVFi?]"=_cY1IK?T1'd*>CY^qGF<I:XlfFP!TP!ebe6U,bVVLg>bDmV_;;>]2Ju0I!&.4p)Q<(>dp4RAnS1"k-]nZ$cVSdT:2NbGG-6d!_FP6WFS0q4.N-NAcG>qmM_D&ms^qTOtQsQAWRWVC)L<XJuf2^UGTg0%V\kBp"*.%Nc'2K/?^b5B\q.un/pF[$c2thMHiIYr?[:`7Vkn3RDlb/ol7j%_1Pu']-uN%[u8VHK#<ILQ>G6TCh:m.JN/auWm29(>IC*OgL$sR`I3:?j9kce,cT?rQHZbG)K>uYE_rTmGl6"8[q`UJg(i/G.)K=4\Y',Wi>6UJXL/\KHee_=>&d=oq#c10Nb8_Z$e4'ZJ+NokJFh^'X!Q8kmt9I[RUe8$-;ltqCm%-qD[o0lH(_OXTG'k6=WHVTn"EB[,(?)?(&7A+F:K,(K41P-:QmC-R@iY:);JF!%`/BVo.BOOKTF_539E`#$p5tKeV^]J>cbq?):Jie_7CB-lfG)ZnJ5TaJHI7CAKGC:-/H66]r@0h7P<>FdI=H"?H#XfTIcj0PV]M+OhX$T/>+;_22Z;b"&+9.MN]$Nm*kLT&n]a^]mm63%RYZ9K7!A6IYURP&iY]S%8l5NFG>Job;W$h23U@<H9FjV`3"F<g0SJB!-A_pFDHf>SpB0Hm^1=;h0,hhUQ=5;mssF&bGc?'5Btsk_*ccpLJP<;dkS!%pt8q_]qs(&&+D?qe3$eSi$LD2BN;@*O'F,C<P6"khYn>jhS7+G"4C]0\'jm'jf^_F[r_t!4c!N@P'O6]B3HG0f\C?Tn:'LS/[2eB6AUu8GsFc0o`[8W[e).Wp)_nI]QGkB<C<f64>3=$c`Y4ee`r#2TuoR[!ZO,G?X4fDIMrX#Vo(6YN>LBCE>83T,)W4?,jlm:4,pIuk_#SGq*.D)[8sD#]6i<s`F`Wf2@uSW/A%0V2TPE\#h'k#KEH;),952.p!"p%SlY`k_JJG=l9S,2<$kFH2p.U?PaCg$Zj2V"Cl:FiX-RRM(^6oChXZRcg9lN@'WjmZl'?AX>ViOsXfNu%,=pG_AF"cA^p,b(L*1iFrn2G[XE+@tR^FK>piFYm<\$Z"`K8g\B>-q!%lqU)='qgEn1EsPVPE.\r5!>XXg7.l`6+nUd\+Rg#NCkcqgcQC2b"da!;QQ`2OdBYrXZiGW1j~>endstream
+endobj
+xref
+0 18
+0000000000 65535 f 
+0000000073 00000 n 
+0000000114 00000 n 
+0000000221 00000 n 
+0000000333 00000 n 
+0000000509 00000 n 
+0000000679 00000 n 
+0000000859 00000 n 
+0000001048 00000 n 
+0000001249 00000 n 
+0000001437 00000 n 
+0000001625 00000 n 
+0000001802 00000 n 
+0000002001 00000 n 
+0000002276 00000 n 
+0000002346 00000 n 
+0000002700 00000 n 
+0000002761 00000 n 
+trailer
+<<
+/ID 
+[<a3d9c06673aa9b58100affdf3280f8ac><a3d9c06673aa9b58100affdf3280f8ac>]
+% ReportLab generated PDF document -- digest (http://www.reportlab.com)
 
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mykhailo Yartsun | Backend & AI Developer</title>
-    <meta
-      name="description"
-      content="Information Engineering student at HAW Hamburg. Backend developer specializing in Python, FastAPI, PostgreSQL, Java, and AI/ML. Open to Werkstudent and internship roles in Hamburg, Germany."
-    />
-    <meta name="author" content="Mykhailo Yartsun" />
-    <meta
-      name="keywords"
-      content="Mykhailo Yartsun, backend developer, software engineer, FastAPI, Python, PostgreSQL, AI, machine learning, Hamburg, Werkstudent, internship, portfolio"
-    />
-    <link rel="canonical" href="https://github.com/yaamii123/portfolio" />
-
-    <!-- Open Graph -->
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Mykhailo Yartsun | Backend & AI Developer" />
-    <meta
-      property="og:description"
-      content="Backend & AI developer building FastAPI apps, PostgreSQL systems, and ML-powered tools. HAW Hamburg student open to Werkstudent roles."
-    />
-    <meta property="og:url" content="https://github.com/yaamii123/portfolio" />
-    <meta property="og:locale" content="en_US" />
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Mykhailo Yartsun | Backend & AI Developer" />
-    <meta
-      name="twitter:description"
-      content="Backend & AI developer â€” Python, FastAPI, PostgreSQL, Java. Open to opportunities in Hamburg."
-    />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
-</html>
+/Info 15 0 R
+/Root 14 0 R
+/Size 18
+>>
+startxref
+6008
+%%EOF
