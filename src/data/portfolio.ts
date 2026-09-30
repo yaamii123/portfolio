@@ -213,6 +213,7 @@ export const projects: Project[] = [
     categories: ['frontend'],
     tags: ['TypeScript', 'React', 'Three.js', 'Vite', 'A*', 'BFS'],
     date: 'Sep 2026',
+    image: '/projects/sliding3d.jpg',
     github: 'https://github.com/yaamii123/sliding3d',
     demo: 'https://sliding3d.vercel.app',
     architecture: {
@@ -237,6 +238,7 @@ export const projects: Project[] = [
     categories: ['ai', 'backend', 'frontend'],
     tags: ['Python', 'FastAPI', 'Next.js', 'scikit-learn', 'Gemini', 'Docker', 'CI/CD'],
     date: '2025 — 2026',
+    image: '/projects/ai-data-analyst.jpg',
     github: 'https://github.com/yaamii123/ai-data-analyst-app',
     demo: 'https://ai-data-analyst-app-sigma.vercel.app',
     featured: true,
@@ -263,6 +265,7 @@ export const projects: Project[] = [
     categories: ['backend'],
     tags: ['FastAPI', 'PostgreSQL', 'SQLAlchemy', 'React', 'Gemini API', 'JWT'],
     date: '2025 — Present',
+    image: '/projects/fintrack.jpg',
     github: 'https://github.com/solomiia222/fintrack-frontend2',
     demo: 'https://fintrack-ai-tawny.vercel.app',
     architecture: {
