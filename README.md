@@ -77,6 +77,12 @@ src/
 - **Certifications section** — Academic training & credentials
 - **Formspree contact form** — Direct inbox delivery
 
+## Project visuals & link previews
+
+- Project cards use blueprint-style schematics from `ProjectVisual.tsx`. To show a real screenshot instead, add `image: '/projects/<id>.png'` to the project in `src/data/portfolio.ts` and drop the file in `public/projects/`.
+- `public/og-image.png` (1200×630) is the social preview. Its source is `scripts/og-image.svg`.
+- `npm run build` also emits `dist/projects/<id>/index.html` per project with its own title/description/URL so shared project links get proper previews.
+
 ## Contact
 
 - **Email:** yartsun.m@gmail.com

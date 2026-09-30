@@ -46,10 +46,15 @@ export interface ProjectArchitecture {
   components: string[];
 }
 
+export type ProjectCategory = 'ai' | 'backend' | 'frontend' | 'academic';
+
 export interface Project {
   id: string;
   gradient: string;
   accentKey: string;
+  categories: ProjectCategory[];
+  /** Optional real screenshot (path under /public). Falls back to the schematic visual. */
+  image?: string;
   tags: string[];
   date: string;
   github?: string;
@@ -93,6 +98,7 @@ export interface Translations {
     title: string;
     subtitle: string;
     accents: Record<string, string>;
+    filters: Record<'label' | 'all' | ProjectCategory, string>;
     labels: Record<string, string>;
     architecture: Record<string, string>;
     items: Record<string, ProjectContent>;

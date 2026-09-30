@@ -12,7 +12,7 @@ export default function Hero({ onScrollToProjects }: HeroProps) {
   const { t } = useTranslation();
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-28 pb-24 md:pt-24">
       <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
         <div className="space-y-6">
           <div className="inline-block mb-2">

@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { getProjectById } from '@/data/portfolio';
 import { useTranslation } from '@/i18n/useTranslation';
+import ProjectVisual from '@/components/portfolio/ProjectVisual';
 import BlueprintBackground from '@/components/portfolio/BlueprintBackground';
 import LanguageToggle from '@/components/portfolio/LanguageToggle';
 
@@ -58,11 +59,18 @@ export default function ProjectDetail({ projectId }: ProjectDetailProps) {
       </header>
 
       <main className="relative z-10 max-w-5xl mx-auto px-6 pt-28 pb-24">
-        <div className="blueprint-hatch p-8 mb-8 border border-dashed border-cyan-500/30">
-          <span className="blueprint-badge mb-3 inline-block">{accent}</span>
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-3">{content.title}</h1>
-          <p className="text-slate-300 text-lg max-w-3xl">{content.description}</p>
-          <p className="text-slate-500 text-sm font-mono mt-4">REV · {project.date}</p>
+        <div className="mb-8 grid overflow-hidden border border-dashed border-cyan-500/30 bg-[#0d1f3c]/40 md:grid-cols-[minmax(0,1.15fr)_minmax(0,1fr)]">
+          <div className="blueprint-hatch border-b-0 p-8">
+            <span className="blueprint-badge mb-3 inline-block">{accent}</span>
+            <h1 className="text-4xl md:text-5xl font-bold text-white mb-3">{content.title}</h1>
+            <p className="text-slate-300 text-lg">{content.description}</p>
+            <p className="text-slate-500 text-sm font-mono mt-4">REV · {project.date}</p>
+          </div>
+          <ProjectVisual
+            project={project}
+            alt={content.title}
+            className="aspect-[416/204] border-t border-dashed border-cyan-500/30 md:aspect-auto md:min-h-[16rem] md:border-t-0 md:border-l"
+          />
         </div>
 
         {content.role && (

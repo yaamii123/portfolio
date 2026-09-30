@@ -182,6 +182,14 @@ export const en: Translations = {
       postgresDesign: 'PostgreSQL · Database Design',
       javaOop: 'Java · OOP',
     },
+    filters: {
+      label: 'Filter projects by category',
+      all: 'All',
+      ai: 'AI / ML',
+      backend: 'Backend',
+      frontend: 'Frontend',
+      academic: 'Academic',
+    },
     labels: {
       problem: 'Problem',
       challenge: 'Challenge',

@@ -180,6 +180,14 @@ export const de: Translations = {
       postgresDesign: 'PostgreSQL · Datenbankdesign',
       javaOop: 'Java · OOP',
     },
+    filters: {
+      label: 'Projekte nach Kategorie filtern',
+      all: 'Alle',
+      ai: 'KI / ML',
+      backend: 'Backend',
+      frontend: 'Frontend',
+      academic: 'Studium',
+    },
     labels: {
       problem: 'Problem',
       challenge: 'Herausforderung',

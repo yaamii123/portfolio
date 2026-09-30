@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#22d3ee" stroke-opacity="0.09"/>
+    </pattern>
+    <pattern id="grid-fine" width="8" height="8" patternUnits="userSpaceOnUse">
+      <path d="M8 0H0V8" fill="none" stroke="#22d3ee" stroke-opacity="0.035"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.78" cy="0.35" r="0.6">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="#0a1628"/>
+  <rect width="1200" height="630" fill="url(#grid-fine)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- frame -->
+  <rect x="32" y="32" width="1136" height="566" fill="none" stroke="#22d3ee" stroke-opacity="0.4" stroke-width="1.5" stroke-dasharray="10 7"/>
+  <g stroke="#22d3ee" stroke-opacity="0.9" stroke-width="2" fill="none">
+    <path d="M32 72V32H72"/><path d="M1128 32H1168V72"/><path d="M32 558V598H72"/><path d="M1128 598H1168V558"/>
+  </g>
+
+  <!-- badge -->
+  <rect x="80" y="84" width="330" height="36" fill="#22d3ee" fill-opacity="0.07" stroke="#22d3ee" stroke-opacity="0.55" stroke-dasharray="6 4"/>
+  <text x="98" y="108" font-family="Menlo, 'SF Mono', monospace" font-size="15" letter-spacing="2" fill="#22d3ee" fill-opacity="0.95">OPEN TO WERKSTUDENT ROLES</text>
+
+  <!-- title -->
+  <text x="80" y="238" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="92" letter-spacing="-2" fill="#ffffff">Mykhailo Yartsun</text>
+  <text x="80" y="326" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="66" letter-spacing="-1" fill="#22d3ee">Backend Engineer</text>
+  <text x="80" y="384" font-family="Menlo, 'SF Mono', monospace" font-size="30" fill="#7dd3fc" fill-opacity="0.9">FastAPI · PostgreSQL · AI</text>
+
+  <!-- pipeline -->
+  <g font-family="Menlo, 'SF Mono', monospace" font-size="17" fill="#22d3ee">
+    <rect x="80" y="440" width="150" height="56" fill="#22d3ee" fill-opacity="0.05" stroke="#22d3ee" stroke-opacity="0.6" stroke-dasharray="6 4"/>
+    <text x="155" y="474" text-anchor="middle">CSV / SQL</text>
+    <rect x="290" y="440" width="150" height="56" fill="#22d3ee" fill-opacity="0.05" stroke="#22d3ee" stroke-opacity="0.6" stroke-dasharray="6 4"/>
+    <text x="365" y="474" text-anchor="middle">FastAPI</text>
+    <rect x="500" y="440" width="150" height="56" fill="#22d3ee" fill-opacity="0.05" stroke="#22d3ee" stroke-opacity="0.6" stroke-dasharray="6 4"/>
+    <text x="575" y="474" text-anchor="middle">PostgreSQL</text>
+    <rect x="710" y="440" width="150" height="56" fill="#22d3ee" fill-opacity="0.05" stroke="#22d3ee" stroke-opacity="0.6" stroke-dasharray="6 4"/>
+    <text x="785" y="474" text-anchor="middle">ML / AI</text>
+  </g>
+  <g stroke="#22d3ee" stroke-opacity="0.8" stroke-width="2" fill="none">
+    <path d="M232 468H288M280 461l8 7-8 7"/>
+    <path d="M442 468H498M490 461l8 7-8 7"/>
+    <path d="M652 468H708M700 461l8 7-8 7"/>
+  </g>
+
+  <!-- footer -->
+  <text x="80" y="556" font-family="Menlo, 'SF Mono', monospace" font-size="22" fill="#22d3ee" fill-opacity="0.95">yartsun.dev</text>
+  <text x="1120" y="556" text-anchor="end" font-family="Menlo, 'SF Mono', monospace" font-size="16" letter-spacing="1" fill="#94a3b8">HAW HAMBURG · HAMBURG, DE</text>
+
+  <!-- isometric cube motif -->
+  <g transform="translate(940 250)" stroke="#22d3ee" stroke-width="1.5" fill="none">
+    <path d="M0 -110 L95 -55 L95 55 L0 110 L-95 55 L-95 -55 Z" stroke-opacity="0.75" fill="#22d3ee" fill-opacity="0.05"/>
+    <path d="M0 -110 L0 0 M-95 -55 L0 0 L95 -55" stroke-opacity="0.6"/>
+    <path d="M0 0 L0 110" stroke-opacity="0.6"/>
+    <g stroke-opacity="0.28">
+      <path d="M-63 -73 L32 -18 M-32 -92 L63 -37 M63 -73 L-32 -18 M32 -92 L-63 -37"/>
+      <path d="M-63 -18 V92 M-32 -36 V74 M32 -36 V74 M63 -18 V92"/>
+    </g>
+    <circle cx="0" cy="0" r="5" fill="#22d3ee" stroke="none"/>
+  </g>
+</svg>
